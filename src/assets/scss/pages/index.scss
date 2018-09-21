@@ -1,0 +1,29 @@
+.card{
+  width: 33.333%;
+  float: left;
+  height:  200px;
+  text-align: center;
+  font-size:  100px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card__face {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+.card__face--front {
+  background: red;
+}
+
+.card__face--back {
+  background: blue;
+  transform: rotateY( 180deg );
+}
+.card.is-flipped {
+  transform: rotateY(180deg);
+}

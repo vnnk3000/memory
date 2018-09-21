@@ -1,13 +1,27 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <!--<img src="./assets/logo.png">-->
+    <!--<router-view/>-->
+
+    <Index></Index>
   </div>
 </template>
 
 <script>
+    import Index from '@/components/Index';
+
+
 export default {
-  name: 'App'
+    name: 'App',
+    components: {
+        Index,
+
+    },
+    data() {
+        return {
+            // key: value
+        }
+    },
 }
 </script>
 

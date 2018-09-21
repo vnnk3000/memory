@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Graphik';
+  src: url('#{$fontPath}subset-GraphikLCG-RegularItalic.eot');
+  src: url('#{$fontPath}subset-GraphikLCG-RegularItalic.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontPath}subset-GraphikLCG-RegularItalic.woff2') format('woff2'),
+  url('#{$fontPath}subset-GraphikLCG-RegularItalic.woff') format('woff'),
+  url('#{$fontPath}subset-GraphikLCG-RegularItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('#{$fontPath}subset-GraphikLCG-Bold.eot');
+  src: url('#{$fontPath}subset-GraphikLCG-Bold.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontPath}subset-GraphikLCG-Bold.woff2') format('woff2'),
+  url('#{$fontPath}subset-GraphikLCG-Bold.woff') format('woff'),
+  url('#{$fontPath}subset-GraphikLCG-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('#{$fontPath}subset-GraphikLCG-Medium.eot');
+  src: url('#{$fontPath}subset-GraphikLCG-Medium.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontPath}subset-GraphikLCG-Medium.woff2') format('woff2'),
+  url('#{$fontPath}subset-GraphikLCG-Medium.woff') format('woff'),
+  url('#{$fontPath}subset-GraphikLCG-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('#{$fontPath}subset-GraphikLCG-Black.eot');
+  src: url('#{$fontPath}subset-GraphikLCG-Black.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontPath}subset-GraphikLCG-Black.woff2') format('woff2'),
+  url('#{$fontPath}subset-GraphikLCG-Black.woff') format('woff'),
+  url('#{$fontPath}subset-GraphikLCG-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('#{$fontPath}subset-GraphikLCG-Semibold.eot');
+  src: url('#{$fontPath}subset-GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontPath}subset-GraphikLCG-Semibold.woff2') format('woff2'),
+  url('#{$fontPath}subset-GraphikLCG-Semibold.woff') format('woff'),
+  url('#{$fontPath}subset-GraphikLCG-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('#{$fontPath}subset-GraphikLCG-Regular.eot');
+  src: url('#{$fontPath}subset-GraphikLCG-Regular.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontPath}subset-GraphikLCG-Regular.woff2') format('woff2'),
+  url('#{$fontPath}subset-GraphikLCG-Regular.woff') format('woff'),
+  url('#{$fontPath}subset-GraphikLCG-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
